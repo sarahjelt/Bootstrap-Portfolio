@@ -1,8 +1,10 @@
+html {
+	height: 100%;
+}
+
 body {
 	background: url(../images/hip-square.png);
-	position: relative;
-	margin-top: 0;
-	margin-bottom: 0;
+	height: 100%;
 }
 
 img {
@@ -13,16 +15,21 @@ h1 {
 	padding-left: 12px;
 }
 
-footer {
+/*footer {
 	padding: 20px 0px;
+	margin: 50px 0px 0px 0px;
 	background-color: #666666;
 	color: #dddddd;
 	font-size: 14px;
 	text-align: center;
-	position: absolute;
-	bottom: 0;
-	left: 0;
 	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}*/
+
+.margin-bottom {
+	margin-bottom: 50px;
 }
 
 .border-top {
@@ -36,6 +43,26 @@ footer {
 .icons {
 	width: 40px;
 	padding: 4px;
+}
+
+.total-height {
+	position: relative;
+}
+
+/* from basic-portfolio */
+footer {
+	background-color: #666666;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #dddddd;
+	bottom: 0px;
+	left: 0px;
+	font-size: 14px;
+	clear: both;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+	margin-top: 110px;
 }
 
 /*nav {
@@ -88,24 +115,10 @@ header {
 	position: absolute;
 	top: 0px;
 	height: 28px;
-}
+}*/
 
-footer {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	background-color: #666666;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	color: #dddddd;
-	bottom: 0px;
-	left: 0px;
-	font-size: 14px;
-	clear: both;
-	width: 100%;
-	text-align: center;
-	z-index: 100;
-}
 
-a.index {
+/*a.index {
 	text-decoration: none;
 	color: #888888;
 }
@@ -244,8 +257,8 @@ a.active:hover {
 	color: white;
 	position: absolute;
 	top: 70%;
-}*/
-
+}
+*/
 /*/* form stuff */
 input[type=text], select, textarea {
     font-size: 16px;
@@ -290,5 +303,7 @@ input[type=submit]:hover {
 
 .form-container {
 	color: #777777;
-	padding-top: 20px;
-}*/
+	padding: 20px;
+	background-color: #FFFFFF;
+	border: 1px solid #dddddd;
+}

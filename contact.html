@@ -3,11 +3,82 @@
 <head>
 <meta charset="UTF-8" />
 	<title>Sara's Portfolio // Contact</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 
 <body>
-	
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        <a class="navbar-brand">Sara Hjelt</a>
+      </div><!--Closes navbar-header -->
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div> <!-- Closes id navbar -->
+      <!--/.nav-collapse -->
+    </div><!-- closes container -->
+  </nav>
+
+<div class="container">
+
+<div class="row"><!-- the big 'un -->
+  <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12"> <!-- First main column of 2-->
+    <div class="row">
+      <h1>Contact</h1>
+      <hr>
+      <div class="form-container">
+			<form action="#" method="post">
+				<input type="hidden" name="recipient"
+				value="#">
+				<input type="hidden" name="subject"
+				value="FormMail Email">
+		<label for="realname" class="sans-serif">Name</label>
+			<input type="text" name="realname" placeholder="John Smith">
+		<label for="email" class="sans-serif">Email</label>
+			<input type="text" name="email" placeholder="example@gmail.com">
+		<label for="Subject" class="sans-serif">Message</label>
+			<textarea name="Subject" style="height:200px"></textarea>
+				<input type="submit" value="Submit" class="sans-serif">
+				<input type="hidden" name="redirect" value="thanks.html">
+			</form>
+	  </div>
+      </div> <!-- Close subcolumn 2 (text next to image - 6 columns of 8) -->
+    </div>
+
+  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12"> <!--Second main column of 2 -->
+    <div class="panel panel-default">
+      <div class="panel-heading">Contact me</div>
+        <div class="panel-body">
+          <a href="https://github.com/sarahjelt" target="_blank"><img class="icons" src="assets/images/github-icon.png" alt="github icon"></a>
+          <a href="https://www.linkedin.com/in/sara-hjelt-8958aa37/" target="_blank"><img class="icons" src="assets/images/linkedin-icon.png" alt="linked in icon"></a>
+          <a href="https://stackoverflow.com/users/8280395/sara-hjelt" target="_blank"><img class="icons" src="assets/images/stackoverflow-icon.png" alt="stackoverflow icon"></a>
+        </div>
+    </div><!-- Close panel -->
+  </div><!-- Close second column (sidebar) -->
+</div><!-- Close overarching row (contains all) -->
+
+</div>
+
+<footer class="border-top">
+  <div>
+    <p>© Copyright 2017 Sara Hjelt</p>
+  </div>
+</footer>
+
+
 </body>
 
 </html>
