@@ -13,7 +13,7 @@
 <body>
 
 <!-- navbar is good i think, i'm happy with navbar functionality -->
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-inverse">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -22,13 +22,13 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-        <a class="navbar-brand">Sara Hjelt</a>
+        <a id="navbar-brand" class="navbar-brand">Sara Hjelt</a>
       </div><!--Closes navbar-header -->
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a id="navbar-color" href="index.html">About</a></li>
+          <li><a id="navbar-color" href="portfolio.html">Portfolio</a></li>
+          <li><a id="navbar-color" href="contact.html">Contact</a></li>
         </ul>
       </div> <!-- Closes id navbar -->
       <!--/.nav-collapse -->
@@ -37,14 +37,14 @@
 
 <div class="container">
 <div class="row"><!-- the big 'un -->
-  <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12"> <!-- First main column of 2-->
+  <div id="main-container" class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12"> <!-- First main column of 2-->
     <div class="row">
-      <h1>About Me</h1>
+      <h1 id="teal">About Me</h1>
       <hr>
     </div><!-- Close subrow 1 of main column 1 -->
     <div class="row">
       <div class="col-md-3">
-        <img src="assets/images/profile.png" alt="me and my cat miri">
+        <img src="assets/images/profile.png" alt="me and my cat miri" style="padding-bottom: 20px;">
       </div><!-- Close subcolumn 1 (profile image) -->
       <div class="col-md-9">
             <p>Hello! I live in Durham with my husband Joe, our cat Miri (she's named after a character/episode of Star Trek! I really like Star Trek!), and our dog Max (he's sort of named for both Maximus Decimus Meridius from Gladiator and Mad Max, but also it's a pretty classic dog name and he just kind of looks like a Max anyway).</p><br>
@@ -57,11 +57,11 @@
 
   <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12"> <!--Second main column of 2 -->
     <div class="panel panel-default">
-      <div class="panel-heading">Contact me</div>
+      <div id="panel-heading" class="panel-heading">Contact me</div>
         <div class="panel-body">
-          <a href="https://github.com/sarahjelt" target="_blank"><img class="icons" src="assets/images/github-icon.png" alt="github icon"></a>
-          <a href="https://www.linkedin.com/in/sara-hjelt-8958aa37/" target="_blank"><img class="icons" src="assets/images/linkedin-icon.png" alt="linked in icon"></a>
-          <a href="https://stackoverflow.com/users/8280395/sara-hjelt" target="_blank"><img class="icons" src="assets/images/stackoverflow-icon.png" alt="stackoverflow icon"></a>
+          <a href="https://github.com/sarahjelt" target="_blank"><img id="opac" class="icons" src="assets/images/github-icon.png" alt="github icon"></a>
+          <a href="https://www.linkedin.com/in/sara-hjelt-8958aa37/" target="_blank"><img id="opac" class="icons" src="assets/images/linkedin-icon.png" alt="linked in icon"></a>
+          <a href="https://stackoverflow.com/users/8280395/sara-hjelt" target="_blank"><img id="opac" class="icons" src="assets/images/stackoverflow-icon.png" alt="stackoverflow icon"></a>
         </div>
     </div><!-- Close panel -->
   </div><!-- Close second column (sidebar) -->

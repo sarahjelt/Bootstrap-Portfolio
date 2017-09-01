@@ -3,30 +3,53 @@ html {
 }
 
 body {
-	background: url(../images/hip-square.png);
+	background: url(../images/topography.png);
 	height: 100%;
 }
 
 img {
 	width: 100%;
+	position: relative;
 }
 
 h1 {
 	padding-left: 12px;
 }
 
-/*footer {
-	padding: 20px 0px;
-	margin: 50px 0px 0px 0px;
-	background-color: #666666;
-	color: #dddddd;
-	font-size: 14px;
-	text-align: center;
-	width: 100%;
-	position: absolute;
-	bottom: 0px;
-	left: 0px;
-}*/
+#teal {
+	color: #4aaaa5;
+}
+
+#navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 0px 15px 30px;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+#navbar-brand:hover {
+	color:#4aaaa5;
+	opacity: 1;
+}
+
+#navbar-color {
+	color: #888888;
+}
+
+#navbar-color:hover {
+	color: #4aaaa5;
+}
+
+nav.navbar-inverse {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 0px;
+	border: 0;
+	background-color: #FFFFFF;
+	color: #777777;
+}
 
 .margin-bottom {
 	margin-bottom: 50px;
@@ -49,7 +72,27 @@ h1 {
 	position: relative;
 }
 
-/* from basic-portfolio */
+.image-label {
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: absolute;
+	top: 55%;
+	text-align: center;
+	width: calc(100% - 30px);
+	height: 18%;
+}
+
+#opac {
+	opacity: 1;
+}
+
+img#opac:hover {
+	opacity: .5;
+}
+
 footer {
 	background-color: #666666;
 	padding-top: 30px;
@@ -64,6 +107,24 @@ footer {
 	z-index: 100;
 	margin-top: 110px;
 }
+
+#main-container {
+	background-color: white;
+	margin-top: 20px;
+	padding: 0px 35px 20px 35px;
+	border: 1px solid #dddddd;
+	box-sizing: border-box;
+}
+
+.port-images {
+	margin-bottom: 30px;
+}
+
+#panel-heading {
+	font-size: 20px;
+	color: #4aaaa5;
+}
+
 
 /*nav {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -117,6 +178,18 @@ header {
 	height: 28px;
 }*/
 
+/*footer {
+	padding: 20px 0px;
+	margin: 50px 0px 0px 0px;
+	background-color: #666666;
+	color: #dddddd;
+	font-size: 14px;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}*/
 
 /*a.index {
 	text-decoration: none;
@@ -198,17 +271,6 @@ a.active:hover {
 	transition: all 0.3s;
 }
 
-#main-container {
-	background-color: white;
-	margin-left: 80px;
-	margin-bottom: 40px;
-	margin-right: -60px;
-	padding: 40px 35px 40px 35px;
-	width: 578px;
-	float: left;
-	border: 1px solid #dddddd;
-	height: 715px;
-}
 
 #sidebar {
 	background-color: white;
@@ -304,6 +366,4 @@ input[type=submit]:hover {
 .form-container {
 	color: #777777;
 	padding: 20px;
-	background-color: #FFFFFF;
-	border: 1px solid #dddddd;
 }

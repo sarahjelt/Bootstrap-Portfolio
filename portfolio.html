@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-inverse">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -19,18 +19,88 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-        <a class="navbar-brand">Sara Hjelt</a>
+        <a id="navbar-brand" class="navbar-brand">Sara Hjelt</a>
       </div><!--Closes navbar-header -->
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a id="navbar-color" href="index.html">About</a></li>
+          <li><a id="navbar-color" href="portfolio.html">Portfolio</a></li>
+          <li><a id="navbar-color" href="contact.html">Contact</a></li>
         </ul>
       </div> <!-- Closes id navbar -->
       <!--/.nav-collapse -->
     </div><!-- closes container -->
-  </nav>
+  </nav><!-- closes nav bar -->
+
+<div class="container">
+  <div class="row">
+    <div id="main-container" class="col-md-8 col-xs-12"> <!-- First main column of 2-->
+      <div class="row"><!--subrow 1-->
+        <h1 id="teal">Portfolio</h1>
+        <hr>
+      </div><!-- Close subrow 1 of main column 1 -->
+
+      <div class="row"><!--subrow 2 first row images-->
+        <div class="col-md-6">
+         <a href="#">
+          <img id="opac" class="port-images" src="assets/images/cat-rpg.jpg" alt="RPG">
+            <div class="col-12 image-label">
+              RPG
+            </div>
+           </a>
+        </div>
+        <div class="col-md-6">
+         <a href="#">
+          <img id="opac" class="port-images" src="assets/images/cat-trivia.jpg" alt="Trivia">
+            <div class="col-12 image-label">
+              Trivia
+            </div>
+           </a>
+        </div>
+      </div>
+      <div class="row"><!--subrow 3 second row images -->
+        <div class="col-md-6">
+         <a href="#">
+          <img id="opac" class="port-images" src="assets/images/cat-hangman.jpg" alt="Hangman">
+            <div class="col-12 image-label">
+              Hangman
+            </div>
+         </a>
+        </div>
+        <div class="col-md-6">
+         <a href="#">
+          <img id="opac" class="port-images" src="assets/images/cat-widget.jpg" alt="Rutgers Info Widget">
+            <div class="col-12 image-label">
+              Rutgers Info Widget
+            </div>
+           </a>
+        </div>
+      </div>
+      <div class="row"><!--subrow 4 3rd row images-->
+        <div class="col-md-6">
+         <a href="#">
+          <img id="opac" class="port-images" src="assets/images/rock-paper-scissors-maru.jpg">
+            <div class="image-label">
+              Rock Paper Scissors
+            </div>
+           </a>
+        </div>
+      </div>
+
+    </div><!-- close first column -->
+
+  <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12"> <!--Second column-->
+    <div class="panel panel-default">
+      <div id="panel-heading" class="panel-heading">Contact me</div>
+        <div class="panel-body">
+          <a href="https://github.com/sarahjelt" target="_blank"><img id="opac" class="icons" src="assets/images/github-icon.png" alt="github icon"></a>
+          <a href="https://www.linkedin.com/in/sara-hjelt-8958aa37/" target="_blank"><img id="opac" class="icons" src="assets/images/linkedin-icon.png" alt="linked in icon"></a>
+          <a href="https://stackoverflow.com/users/8280395/sara-hjelt" target="_blank"><img id="opac" class="icons" src="assets/images/stackoverflow-icon.png" alt="stackoverflow icon"></a>
+        </div>
+    </div><!-- Close panel -->
+  </div>
+</div><!-- main body row guy -->
+</div><!--main container-->
 
 
 
