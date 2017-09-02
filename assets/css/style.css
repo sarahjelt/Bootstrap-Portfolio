@@ -29,6 +29,14 @@ h1 {
     line-height: 20px;
 }
 
+#navbar-toggle {
+	background-color: #4aaaa5;
+}
+
+#navbar-toggle:hover {
+	background-color: lavender;
+}
+
 #navbar-brand:hover {
 	color:#4aaaa5;
 	opacity: 1;
@@ -36,6 +44,7 @@ h1 {
 
 #navbar-color {
 	color: #888888;
+	padding-left: 30px;
 }
 
 #navbar-color:hover {
