@@ -29,11 +29,11 @@ h1 {
     line-height: 20px;
 }
 
-#navbar-toggle {
+#navbar-toggled {
 	background-color: #4aaaa5;
 }
 
-#navbar-toggle:hover {
+#navbar-toggled:hover {
 	background-color: lavender;
 }
 
